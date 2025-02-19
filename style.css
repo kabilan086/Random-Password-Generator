@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/736x/92/db/90/92db905ea4b71334b639ee39ac56154f.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    background: #021a25;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.container h2 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.display {
+    width: 100%;
+    background: white;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.display input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 100%;
+    background: none;
+    color: black;
+}
+
+.display img {
+    width: 25px;
+    cursor: pointer;
+}
+
+.container button {
+    border: none;
+    outline: none;
+    background: #019f55;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container button:hover {
+    background: #017a40;
+}
+
+.container button img {
+    width: 22px;
+    margin-right: 8px;
+}
